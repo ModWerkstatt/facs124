@@ -24,26 +24,21 @@ return {
 					},
 					{
 						children = {
-							{
-								_meshId = 3,
-								materials = { "vehicle/waggon/drehgestelle_kaleut/dg_ba_931/dg_ba_931.mtl", },
-								mesh = "vehicle/waggon/drehgestelle_kaleut/dg_ba_931/dg_ba_931_achse_lod_0.msh",
-								name = "MSH_dg_ba_931_achse_lod_0_1",
-								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1, 0, 0.45, 1, },
-							},
-							{
-								_meshId = 4,
-								materials = { "vehicle/waggon/drehgestelle_kaleut/dg_ba_931/dg_ba_931.mtl", },
-								mesh = "vehicle/waggon/drehgestelle_kaleut/dg_ba_931/dg_ba_931_achse_lod_0.msh",
-								name = "MSH_dg_ba_931_achse_lod_0_2",
-								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1, 0, 0.45, 1, },
-							},
-							{
-								_meshId = 5,
-								materials = { "vehicle/waggon/drehgestelle_kaleut/dg_ba_932/dg_ba_932.mtl", },
-								mesh = "vehicle/waggon/drehgestelle_kaleut/dg_ba_932/dg_ba_932_body_lod_0.msh",
-								name = "MSH_dg_ba_932_body_lod_0_1",
-								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+                            {
+						        materials = { "vehicle/waggon/modwerkstatt_basis/dg_ba_645.mtl", },
+						        mesh = "vehicle/waggon/modwerkstatt_basis/dg_ba_645/dg_ba_645_lod0.msh",
+						        name = "",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					        },
+                            {
+						        materials = { "vehicle/waggon/modwerkstatt_basis/dg_ba_931.mtl", },
+						        mesh = "vehicle/waggon/modwerkstatt_basis/dg_achse_920mm_lod0.msh",
+						        name = "",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.9, 0, 0.45162, 1, },
+					        },
+                            {
+						        materials = { "vehicle/waggon/modwerkstatt_basis/dg_ba_931.mtl", },
+						        mesh = "vehicle/waggon/modwerkstatt_basis/dg_achse_920mm_lod0.msh",
 							},
 						},
 						name = "GRP_dg_ba_932_lod_0_1",
@@ -51,26 +46,23 @@ return {
 					},
 					{
 						children = {
-							{
-								_meshId = 7,
-								materials = { "vehicle/waggon/drehgestelle_kaleut/dg_ba_931/dg_ba_931.mtl", },
-								mesh = "vehicle/waggon/drehgestelle_kaleut/dg_ba_931/dg_ba_931_achse_lod_0.msh",
-								name = "MSH_dg_ba_931_achse_lod_0_1",
-								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1, 0, 0.45, 1, },
-							},
-							{
-								_meshId = 8,
-								materials = { "vehicle/waggon/drehgestelle_kaleut/dg_ba_931/dg_ba_931.mtl", },
-								mesh = "vehicle/waggon/drehgestelle_kaleut/dg_ba_931/dg_ba_931_achse_lod_0.msh",
-								name = "MSH_dg_ba_931_achse_lod_0_2",
-								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1, 0, 0.45, 1, },
-							},
-							{
-								_meshId = 9,
-								materials = { "vehicle/waggon/drehgestelle_kaleut/dg_ba_932/dg_ba_932.mtl", },
-								mesh = "vehicle/waggon/drehgestelle_kaleut/dg_ba_932/dg_ba_932_body_lod_0.msh",
-								name = "MSH_dg_ba_932_body_lod_0_1",
-								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+                            {
+						        materials = { "vehicle/waggon/modwerkstatt_basis/dg_ba_645.mtl", },
+						        mesh = "vehicle/waggon/modwerkstatt_basis/dg_ba_645/dg_ba_645_lod0.msh",
+						        name = "",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					        },
+                            {
+						        materials = { "vehicle/waggon/modwerkstatt_basis/dg_ba_931.mtl", },
+						        mesh = "vehicle/waggon/modwerkstatt_basis/dg_achse_920mm_lod0.msh",
+						        name = "",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.9, 0, 0.45162, 1, },
+					        },
+                            {
+						        materials = { "vehicle/waggon/modwerkstatt_basis/dg_ba_931.mtl", },
+						        mesh = "vehicle/waggon/modwerkstatt_basis/dg_achse_920mm_lod0.msh",
+						        name = "",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.9, 0, 0.45162, 1, },
 							},
 						},
 						name = "GRP_dg_ba_932_lod_0_1",
@@ -78,31 +70,17 @@ return {
 					},
                     {
     					_meshId = 10,
-						materials = { "vehicle/waggon/zugschluss.mtl", },
-    					mesh = "vehicle/waggon/zugschluss/zugschluss_de_front.msh",
+						materials = { "vehicle/waggon/modwerkstatt_basis/zugschluss.mtl", },
+						mesh = "vehicle/waggon/modwerkstatt_basis/zugschluss/zugschluss_de_lod0.msh",
                         name = "zugschluss_de_front",
     					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -9.08, -0.85, 1.285, 1,	},
     				},
                     {
     					_meshId = 11,
-						materials = { "vehicle/waggon/zugschluss.mtl", },
-    					mesh = "vehicle/waggon/zugschluss/zugschluss_de_front.msh",
+						materials = { "vehicle/waggon/modwerkstatt_basis/zugschluss.mtl", },
+						mesh = "vehicle/waggon/modwerkstatt_basis/zugschluss/zugschluss_de_lod0.msh",
                         name = "zugschluss_de_front",
     					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -9.08, 0.85, 1.285, 1,	},
-    				},
-                    {
-    					_meshId = 12,
-						materials = { "vehicle/waggon/zugschluss.mtl", },
-    					mesh = "vehicle/waggon/zugschluss/zugschluss_de_back.msh",
-                        name = "zugschluss_de_front",
-    					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 9.08, -0.85, 1.285, 1,	},
-    				},
-                    {
-    					_meshId = 13,
-						materials = { "vehicle/waggon/zugschluss.mtl", },
-    					mesh = "vehicle/waggon/zugschluss/zugschluss_de_back.msh",
-                        name = "zugschluss_de_front",
-    					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 9.08, 0.85, 1.285, 1,	},
     				},
 				},
 				name = "RootNode",
@@ -124,26 +102,23 @@ return {
 					},
 					{
 						children = {
-							{
-								_meshId = 3,
-								materials = { "vehicle/waggon/drehgestelle_kaleut/dg_ba_931/dg_ba_931.mtl", },
-								mesh = "vehicle/waggon/drehgestelle_kaleut/dg_ba_931/dg_ba_931_achse_lod_1.msh",
-								name = "MSH_dg_ba_931_achse_lod_0_1",
-								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1, 0, 0.45, 1, },
-							},
-							{
-								_meshId = 4,
-								materials = { "vehicle/waggon/drehgestelle_kaleut/dg_ba_931/dg_ba_931.mtl", },
-								mesh = "vehicle/waggon/drehgestelle_kaleut/dg_ba_931/dg_ba_931_achse_lod_1.msh",
-								name = "MSH_dg_ba_931_achse_lod_0_2",
-								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1, 0, 0.45, 1, },
-							},
-							{
-								_meshId = 5,
-								materials = { "vehicle/waggon/drehgestelle_kaleut/dg_ba_932/dg_ba_932.mtl", },
-								mesh = "vehicle/waggon/drehgestelle_kaleut/dg_ba_931/dg_ba_931_body_lod_1.msh",
-								name = "MSH_dg_ba_932_body_lod_0_1",
-								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+                            {
+						        materials = { "vehicle/waggon/modwerkstatt_basis/dg_ba_645.mtl", },
+						        mesh = "vehicle/waggon/modwerkstatt_basis/dg_ba_645/dg_ba_645_lod1.msh",
+						        name = "",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					        },
+                            {
+						        materials = { "vehicle/waggon/modwerkstatt_basis/dg_ba_931.mtl", },
+						        mesh = "vehicle/waggon/modwerkstatt_basis/dg_achse_920mm_lod1.msh",
+						        name = "",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.9, 0, 0.45162, 1, },
+					        },
+                            {
+						        materials = { "vehicle/waggon/modwerkstatt_basis/dg_ba_931.mtl", },
+						        mesh = "vehicle/waggon/modwerkstatt_basis/dg_achse_920mm_lod1.msh",
+						        name = "",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.9, 0, 0.45162, 1, },
 							},
 						},
 						name = "GRP_dg_ba_932_lod_0_1",
@@ -151,26 +126,23 @@ return {
 					},
 					{
 						children = {
-							{
-								_meshId = 7,
-								materials = { "vehicle/waggon/drehgestelle_kaleut/dg_ba_931/dg_ba_931.mtl", },
-								mesh = "vehicle/waggon/drehgestelle_kaleut/dg_ba_931/dg_ba_931_achse_lod_1.msh",
-								name = "MSH_dg_ba_931_achse_lod_0_1",
-								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1, 0, 0.45, 1, },
-							},
-							{
-								_meshId = 8,
-								materials = { "vehicle/waggon/drehgestelle_kaleut/dg_ba_931/dg_ba_931.mtl", },
-								mesh = "vehicle/waggon/drehgestelle_kaleut/dg_ba_931/dg_ba_931_achse_lod_1.msh",
-								name = "MSH_dg_ba_931_achse_lod_0_2",
-								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1, 0, 0.45, 1, },
-							},
-							{
-								_meshId = 9,
-								materials = { "vehicle/waggon/drehgestelle_kaleut/dg_ba_932/dg_ba_932.mtl", },
-								mesh = "vehicle/waggon/drehgestelle_kaleut/dg_ba_931/dg_ba_931_body_lod_1.msh",
-								name = "MSH_dg_ba_932_body_lod_0_1",
-								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+                            {
+						        materials = { "vehicle/waggon/modwerkstatt_basis/dg_ba_645.mtl", },
+						        mesh = "vehicle/waggon/modwerkstatt_basis/dg_ba_645/dg_ba_645_lod1.msh",
+						        name = "",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					        },
+                            {
+						        materials = { "vehicle/waggon/modwerkstatt_basis/dg_ba_931.mtl", },
+						        mesh = "vehicle/waggon/modwerkstatt_basis/dg_achse_920mm_lod1.msh",
+						        name = "",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.9, 0, 0.45162, 1, },
+					        },
+                            {
+						        materials = { "vehicle/waggon/modwerkstatt_basis/dg_ba_931.mtl", },
+						        mesh = "vehicle/waggon/modwerkstatt_basis/dg_achse_920mm_lod1.msh",
+						        name = "",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.9, 0, 0.45162, 1, },
 							},
 						},
 						name = "GRP_dg_ba_932_lod_0_1",
@@ -196,26 +168,23 @@ return {
 					},
 					{
 						children = {
-							{
-								_meshId = 3,
-								materials = { "vehicle/waggon/drehgestelle_kaleut/dg_ba_931/dg_ba_931.mtl", },
-								mesh = "vehicle/waggon/drehgestelle_kaleut/dg_ba_931/dg_ba_931_achse_lod_2.msh",
-								name = "MSH_dg_ba_931_achse_lod_0_1",
-								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1, 0, 0.45, 1, },
-							},
-							{
-								_meshId = 4,
-								materials = { "vehicle/waggon/drehgestelle_kaleut/dg_ba_931/dg_ba_931.mtl", },
-								mesh = "vehicle/waggon/drehgestelle_kaleut/dg_ba_931/dg_ba_931_achse_lod_2.msh",
-								name = "MSH_dg_ba_931_achse_lod_0_2",
-								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1, 0, 0.45, 1, },
-							},
-							{
-								_meshId = 5,
-								materials = { "vehicle/waggon/drehgestelle_kaleut/dg_ba_932/dg_ba_932.mtl", },
-								mesh = "vehicle/waggon/drehgestelle_kaleut/dg_ba_931/dg_ba_931_body_lod_2.msh",
-								name = "MSH_dg_ba_932_body_lod_0_1",
-								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+                            {
+						        materials = { "vehicle/waggon/modwerkstatt_basis/dg_ba_645.mtl", },
+						        mesh = "vehicle/waggon/modwerkstatt_basis/dg_ba_645/dg_ba_645_lod2.msh",
+						        name = "",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					        },
+                            {
+						        materials = { "vehicle/waggon/modwerkstatt_basis/dg_ba_931.mtl", },
+						        mesh = "vehicle/waggon/modwerkstatt_basis/dg_achse_920mm_lod2.msh",
+						        name = "",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.9, 0, 0.45162, 1, },
+					        },
+                            {
+						        materials = { "vehicle/waggon/modwerkstatt_basis/dg_ba_931.mtl", },
+						        mesh = "vehicle/waggon/modwerkstatt_basis/dg_achse_920mm_lod2.msh",
+						        name = "",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.9, 0, 0.45162, 1, },
 							},
 						},
 						name = "GRP_dg_ba_932_lod_0_1",
@@ -223,26 +192,23 @@ return {
 					},
 					{
 						children = {
-							{
-								_meshId = 7,
-								materials = { "vehicle/waggon/drehgestelle_kaleut/dg_ba_931/dg_ba_931.mtl", },
-								mesh = "vehicle/waggon/drehgestelle_kaleut/dg_ba_931/dg_ba_931_achse_lod_2.msh",
-								name = "MSH_dg_ba_931_achse_lod_0_1",
-								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1, 0, 0.45, 1, },
-							},
-							{
-								_meshId = 8,
-								materials = { "vehicle/waggon/drehgestelle_kaleut/dg_ba_931/dg_ba_931.mtl", },
-								mesh = "vehicle/waggon/drehgestelle_kaleut/dg_ba_931/dg_ba_931_achse_lod_2.msh",
-								name = "MSH_dg_ba_931_achse_lod_0_2",
-								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1, 0, 0.45, 1, },
-							},
-							{
-								_meshId = 9,
-								materials = { "vehicle/waggon/drehgestelle_kaleut/dg_ba_932/dg_ba_932.mtl", },
-								mesh = "vehicle/waggon/drehgestelle_kaleut/dg_ba_931/dg_ba_931_body_lod_2.msh",
-								name = "MSH_dg_ba_932_body_lod_0_1",
-								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+                            {
+						        materials = { "vehicle/waggon/modwerkstatt_basis/dg_ba_645.mtl", },
+						        mesh = "vehicle/waggon/modwerkstatt_basis/dg_ba_645/dg_ba_645_lod2.msh",
+						        name = "",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					        },
+                            {
+						        materials = { "vehicle/waggon/modwerkstatt_basis/dg_ba_931.mtl", },
+						        mesh = "vehicle/waggon/modwerkstatt_basis/dg_achse_920mm_lod2.msh",
+						        name = "",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.9, 0, 0.45162, 1, },
+					        },
+                            {
+						        materials = { "vehicle/waggon/modwerkstatt_basis/dg_ba_931.mtl", },
+						        mesh = "vehicle/waggon/modwerkstatt_basis/dg_achse_920mm_lod2.msh",
+						        name = "",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.9, 0, 0.45162, 1, },
 							},
 						},
 						name = "GRP_dg_ba_932_lod_0_1",
@@ -282,25 +248,20 @@ return {
 		railVehicle = {
 			configs = {
 				{
-					axles = { "vehicle/waggon/drehgestelle_kaleut/dg_ba_931/dg_ba_931_achse_lod_0.msh", },
-                    frontForwardParts = { },
+					axles = { "vehicle/waggon/modwerkstatt_basis/dg_achse_920mm_lod0.msh", },
                     backForwardParts = { 10, 11, },
-                    frontBackwardParts = { },
-                    backBackwardParts = { 12, 13, },
-                    innerForwardParts = { },
-                    innerBackwardParts = { }
 				},
                 {
-					axles = { "vehicle/waggon/drehgestelle_kaleut/dg_ba_931/dg_ba_931_achse_lod_1.msh", },
+					axles = { "vehicle/waggon/modwerkstatt_basis/dg_achse_920mm_lod1.msh", },
 				},
                 
                 {
-					axles = { "vehicle/waggon/drehgestelle_kaleut/dg_ba_931/dg_ba_931_achse_lod_2.msh", },
+					axles = { "vehicle/waggon/modwerkstatt_basis/dg_achse_920mm_lod2.msh", },
 				},
 			},
 			engines = { },
 			soundSet = {
-				name = "waggon_freight_old",
+				name = "mw_schwer",
 			},
 			topSpeed = 33.3333333,
 			weight = 25,
