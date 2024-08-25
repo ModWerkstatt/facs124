@@ -467,7 +467,7 @@ return {
 			maxVolume = 70,
 			maxWeight = 84,
 			multipleUnitOnly = false,
-			groupFileName = "vehicle/waggon/Facs124/Fake/menu_Facs124_fake.mdl",
+			groupFileName = "vehicle/waggon/Facs124/fake/menu_Facs124_fake.mdl",
 			reversible = false,
 		},
 	},
