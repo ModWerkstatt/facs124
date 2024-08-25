@@ -17,7 +17,7 @@ return {
 				children = {
 					{
 						_meshId = 1,
-						materials = { "vehicle/waggon/Facs124/Facs124_dbag.mtl", },
+						materials = { "vehicle/waggon/Facs124/Facs124_dr.mtl", },
 						mesh = "vehicle/waggon/Facs124/rumpf_lod0.msh",
 						name = "rumpf",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
@@ -97,7 +97,7 @@ return {
 				children = {
 					{
 						_meshId = 1,
-						materials = { "vehicle/waggon/Facs124/Facs124_dbag.mtl", },
+						materials = { "vehicle/waggon/Facs124/Facs124_dr.mtl", },
 						mesh = "vehicle/waggon/Facs124/rumpf_lod1.msh",
 						name = "rumpf",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
@@ -163,7 +163,7 @@ return {
 				children = {
 					{
 						_meshId = 1,
-						materials = { "vehicle/waggon/Facs124/Facs124_dbag.mtl", },
+						materials = { "vehicle/waggon/Facs124/Facs124_dr.mtl", },
 						mesh = "vehicle/waggon/Facs124/rumpf_lod2.msh",
 						name = "rumpf",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
@@ -227,16 +227,16 @@ return {
 	},
 	metadata = {
 		availability = {
-			yearFrom = 1994,
---			yearTo = 1964,
+			yearFrom = 1980,
+			yearTo = 1994,
 		},
 		cost = {
 			price = -1,
 			priceScale = 1,
 		},
 		description = {
-			name = _("Facs124_dbag_name"),
-            description = _("Facs124_dbag_desc"),
+			name = _("Facs124_dr_name_fake"),
+            description = _("Facs124_dr_desc"),
 		},
 		maintenance = {
 			runningCosts = -1,
@@ -422,127 +422,52 @@ return {
 				{
 					{
 						{
-							capacity = 80,
+							capacity = 4,
 							customCargoModels = {
 								configurations = {
 									{
 										slotLevels = {
-											{ },
-											{ 0 },
-											{ 1 },	
-											{ 2 },
 											{ 3 },											
 										},
-									},									
+									},
+									{
+										slotLevels = {
+											{ 7 },
+											
+										},
+									},	
+									{
+										slotLevels = {
+											{ 11 },											
+										},
+									},		
+									{
+										slotLevels = {
+											{ 15 },											
+										},
+									},	
+									{
+										slotLevels = {
+											{ 19 },											
+										},
+									},	
+									{
+										slotLevels = {
+											{ 23 },											
+										},
+									},										
 								},
 							},
 							type = "COAL",
 						},
 					},
-					{
-						{
-							capacity = 80,
-							
-							customCargoModels = {
-								configurations = {
-									{
-										slotLevels = {
-											{ },
-											{ 4 },
-											{ 5 },	
-											{ 6 },
-											{ 7 },
-											
-										},
-									},									
-								},
-							},
-							type = "IRON_ORE",
-						},
-					},	
-                    {
-						{
-							capacity = 80,
-							customCargoModels = {
-								configurations = {
-									{
-										slotLevels = {
-											{ },
-											{ 8 },
-											{ 9 },	
-											{ 10 },
-											{ 11 },											
-										},
-									},									
-								},
-							},
-							type = "STONE",
-						},
-					},	
-                    {
-						{
-							capacity = 80,
-							customCargoModels = {
-								configurations = {
-									{
-										slotLevels = {
-											{ },
-											{ 12 },
-											{ 13 },	
-											{ 14 },
-											{ 15 },											
-										},
-									},									
-								},
-							},
-							type = "OIL_SAND",
-						},
-					},		
-                    {
-						{
-							capacity = 80,
-							customCargoModels = {
-								configurations = {
-									{
-										slotLevels = {
-											{ },
-											{ 16 },
-											{ 17 },	
-											{ 18 },
-											{ 19 },											
-										},
-									},									
-								},
-							},
-							type = "SILVER_ORE",
-						},
-					},			
-                    {
-						{
-							capacity = 80,
-							customCargoModels = {
-								configurations = {
-									{
-										slotLevels = {
-											{ },
-											{ 20 },
-											{ 21 },	
-											{ 22 },
-											{ 23 },											
-										},
-									},									
-								},
-							},
-							type = "SLAG",
-						},
-					},
-				},  
+				}, 
 			},
 			loadSpeed = 4,
 			maxVolume = 70,
 			maxWeight = 84,
 			multipleUnitOnly = false,
-			groupFileName = "vehicle/waggon/Facs124/menu_Facs124.mdl",
+			groupFileName = "vehicle/waggon/Facs124/Fake/menu_Facs124_fake.mdl",
 			reversible = false,
 		},
 	},
