@@ -264,7 +264,7 @@ return {
 				name = "mw_schwer",
 			},
 			topSpeed = 33.3333333,
-			weight = 25,
+			weight = 83,
 		},
 		cargoSlotProvider = {
 			slots = {
