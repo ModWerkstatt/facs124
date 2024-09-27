@@ -233,8 +233,8 @@ return {
 			yearTo = 1980,
 		},
 		cost = {
-			price = -1,
-			priceScale = 1,
+			price = 0,
+			priceScale = 0,
 		},
 		description = {
 			name = _("Eads-y_dr_name_fake"),

@@ -231,8 +231,8 @@ return {
 			yearTo = 1964,
 		},
 		cost = {
-			price = -1,
-			priceScale = 1,
+			price = 0,
+			priceScale = 0,
 		},
 		description = {
 			name = _("Facs124_db_name_fake"),
